@@ -31,7 +31,7 @@ public class Main {
 
   }
 
-  private class ColorFirst implements Comparator<Card> {
+  private static class ColorFirst implements Comparator<Card> {
 
     @Override
     public int compare(Card card1, Card card2) {
